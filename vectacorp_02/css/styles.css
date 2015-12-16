@@ -1,0 +1,7 @@
+#home h3 {
+    text-align: center;
+}
+.ui-header.ui-bar-inherit, .ui-footer.ui-bar-inherit {
+    background-color: black;
+    color: white;
+}

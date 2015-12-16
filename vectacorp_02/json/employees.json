@@ -1,0 +1,149 @@
+{"employees": [
+    {
+        "id": "001",
+        "name": "Taco MacArthur",
+        "title": "President and CEO, Taco Corp",
+        "image": "james_king.jpg",
+        "office": "555-234-0001",
+        "cell": "555-568-0001",
+        "email": "taco@taco.corp.com",
+        "manager": "Mrs. MacArthur",
+        "subs": "2",
+        "reportsTo": "000"
+    },
+    {
+        "id": "002",
+        "name": "Amy Jones",
+        "title" :"Vice President, EBDBB&B",
+        "image" :"amy_jones.jpg",
+        "office" :"555-234-0002",
+        "cell" :"555-568-0002",
+        "email" :"amy@taco.corp.com",
+        "manager":"Taco MacArthur",
+        "subs": "7",
+        "reportsTo": "001"
+    },
+    {
+        "id": "003",
+        "name": "Eugene Lee",
+        "title": "Vice President, EBDB",
+        "image": "eugene_lee.jpg",
+        "office": "555-234-0003",
+        "cell": "555-568-0003",
+        "email": "eugene@taco.corp.com",
+        "manager": "Taco MacArthur",
+        "subs": "2",
+        "reportsTo": "001"
+    },
+    {
+        "id": "004",
+        "name": "Gary Donovan",
+        "title": "Field Rep, EBDB",
+        "image": "gary_donovan.jpg",
+        "office": "555-234-0004",
+        "cell": "555-568-0004",
+        "email": "gary@taco.corp.com",
+        "manager": "Eugene Lee",
+        "subs": "0",
+        "reportsTo": "003"
+    },
+    {
+        "id": "005",
+        "name": "John Williams",
+        "title": "Field Rep, EBDB",
+        "image": "john_williams.jpg",
+        "office": "555-234-0005",
+        "cell": "555-568-0005",
+        "email": "john@taco.corp.com",
+        "manager": "Eugene Lee",
+        "subs": "0",
+        "reportsTo": "003"
+    },
+    {
+        "id": "006",
+        "name": "Julie Taylor",
+        "title": "Hostess, EBDBB&B",
+        "image": "julie_taylor.jpg",
+        "office": "555-234-0006",
+        "cell": "555-568-0006",
+        "email": "julie@taco.corp.com",
+        "manager": "Julie Taylor",
+        "subs": "0",
+        "reportsTo": "002"
+    },
+    {
+        "id": "007",
+        "name": "Kathleen Byrne",
+        "title": "Hostess, EBDBB&B",
+        "image": "kathleen_byrne.jpg",
+        "office": "555-234-0007",
+        "cell": "555-568-0007",
+        "email": "kathleen@taco.corp.com",
+        "manager": "Julie Taylor",
+        "subs": "0",
+        "reportsTo": "002"
+    },
+    {
+        "id": "008",
+        "name": "Lisa Wong",
+        "title": "Hostess, EBDBB&B",
+        "image": "lisa_wong.jpg",
+        "office": "555-234-0008",
+        "cell": "555-568-0008",
+        "email": "lisa@taco.corp.com",
+        "manager": "Julie Taylor",
+        "subs": "0",
+        "reportsTo": "002"
+    },
+    {
+        "id": "009",
+        "name": "Paul Jones",
+        "title": "Host, EBDBB&B",
+        "image": "paul_jones.jpg",
+        "office": "555-234-0009",
+        "cell": "555-568-0009",
+        "email": "paul@taco.corp.com",
+        "manager": "Julie Taylor",
+        "subs": "0",
+        "reportsTo": "002"
+    },
+    {
+        "id": "010",
+        "name": "Paula Gates",
+        "title": "Hostess, EBDBB&B",
+        "image": "paula_gates.jpg",
+        "office": "555-234-0010",
+        "cell": "555-568-0010",
+        "email": "paula@taco.corp.com",
+        "manager": "Julie Taylor",
+        "subs": "0",
+        "reportsTo": "002"
+    },
+      {
+        "id": "011",
+        "name": "Ray Moore",
+        "title": "Front Desk, EBDBB&B",
+        "image": "ray_moore.jpg",
+        "office": "555-234-0011",
+        "cell": "555-568-0011",
+        "email": "ray@taco.corp.com",
+        "manager": "Julie Taylor",
+        "subs": "0",
+        "reportsTo": "002"
+    },
+      {
+        "id": "012",
+        "name": "Steven Wells",
+        "title": "Janitor, EBDBB&B",
+        "image": "steven_wells.jpg",
+        "office": "555-234-0012",
+        "cell": "555-568-0012",
+        "email": "steven@taco.corp.com",
+        "manager": "Julie Taylor",
+        "subs": "0",
+        "reportsTo": "002"  
+    }
+    
+    
+    
+]}

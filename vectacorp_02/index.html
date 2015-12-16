@@ -1,0 +1,123 @@
+<doctype HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Taco Corps</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="css/styles.css">
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/home.js"></script>
+<script src="js/employee.js"></script>
+<script src="js/management.js"></script>
+<script src="js/subordinates.js"></script>
+
+</head>
+
+<body>
+
+<!-- home page -->
+
+<section data-role="page" id="home" data-theme="a">
+    
+    <!-- header -->
+    <header data-role="header">
+        <h1>Taco Corp</h1>
+    </header><!-- </header> -->
+
+    <section class="ui-content">
+       
+       <h3>Welcome to the Taco Corp Employee Directory.</h3>
+        
+       <p>Enter an employee name to begin your search.</p>
+        
+<!--       <div>-->
+           <ul id="result" data-role="listview" data-split-icon="gear" data-inset="true" data-filter="true" data-filter-reveal="true">
+<!--
+                <li><a href="#001">
+                    <img src="images/james_king.jpg">
+                    <h3>Taco MacArthur<span class="ui-li-count">11</span></h3>
+                    <p>President, CEO of Taco Corp</p>
+                </a></li>
+-->
+           </ul>
+<!--       </div>-->
+
+        
+    </section><!-- </content> -->
+    
+    <footer data-role="footer" data-position="fixed">
+        <h4>Taco Corp. &copy; 2015</h4>
+    </footer>
+    
+</section><!-- </home page> -->
+
+<!-- employee page -->
+
+<section data-role="page" id="employee">
+    
+     <!-- header -->
+    <header data-role="header">
+       <a href="#home" data-role="button" data-icon="back">Back</a>
+        <h1>Taco Corp.</h1>
+        <a href="#home" data-role="button" data-icon="search">Search</a>
+    </header><!-- </header> -->
+    
+    <section data-role="content">
+         
+         <ul id="employee_details" data-role="listview" data-split-icon="gear" data-inset="true"></ul>
+       
+    </section><!-- </content> -->
+    
+    <footer data-role="footer" data-position="fixed">
+        <h4>Taco Corp. &copy; 2015</h4>
+    </footer>
+
+</section><!-- </employee page> -->
+
+<!-- manager page -->
+
+<section data-role="page" id="management">
+  
+    <!-- header -->
+    <header data-role="header">
+         <a href="#employee" data-role="button" data-icon="back">Back</a>
+        <h1>Taco Corp.</h1>
+        <a href="#home" data-role="button" data-icon="search">Search</a>
+    </header><!-- </header> -->  
+   
+    <section data-role="content">
+      
+        <ul id="manager_details" data-role="listview" data-split-icon="gear" data-inset="true"> </ul> 
+       
+    </section><!-- </content> -->
+         
+    <footer data-role="footer" data-position="fixed">
+        <h4>Taco Corp. &copy; 2015</h4>
+    </footer>
+          
+</section><!-- </manager page> -->
+ 
+ <section data-role="page" id="subordinates">
+  
+    <!-- header -->
+    <header data-role="header">
+         <a href="#management" data-role="button" data-icon="back">Back</a>
+        <h1>Taco Corp.</h1>
+        <a href="#home" data-role="button" data-icon="search">Search</a>
+    </header><!-- </header> -->  
+   
+    <section data-role="content">
+     
+        <ul id="sub_details" data-role="listview" data-split-icon="gear" data-inset="true"></ul>  
+       
+    </section><!-- </content> -->
+         
+    <footer data-role="footer" data-position="fixed">
+        <h4>Taco Corp. &copy; 2015</h4>
+    </footer>
+          
+</section><!-- </manager page> -->
+  
+</body>
+</html>
